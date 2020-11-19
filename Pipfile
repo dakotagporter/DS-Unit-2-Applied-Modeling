@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
 category-encoders = "*"
 eli5 = "*"
 matplotlib = "*"
@@ -16,6 +15,8 @@ scipy = "*"
 seaborn = "*"
 scikit-learn = "*"
 requests = "*"
+xgboost = "*"
+numpy = "==1.19.3"
 
 [dev-packages]
 
